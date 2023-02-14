@@ -1,8 +1,7 @@
 // delete many collections
-db.school.delete(
+db.school.deleteMany(
     {
       name: "Holberton school"
     },
-    {multi:true},
 )
 
