@@ -13,4 +13,4 @@ def list_all(mongo_collection):
     if details:
         return [values for values in details]
     else:
-        return {}
+        return []
