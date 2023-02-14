@@ -2,7 +2,7 @@
 db.school.update(
     {name: "Holberton school"},
     {
-      $set:
+      $addToSet:
         {
           address: “972 Mission street”
         }
