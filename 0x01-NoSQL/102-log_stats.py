@@ -38,5 +38,6 @@ def print_nginx_logs():
         ip_count = sorted_ip['totalRequests']
         print('\t{}: {}'.format(ip, ip_count))
 
+
 if __name__ == '__main__':
     print_nginx_logs()

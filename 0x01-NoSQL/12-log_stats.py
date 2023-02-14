@@ -19,7 +19,7 @@ def print_nginx_logs():
         nginx_collection.find({'method': 'GET', 'path': '/status'})
     ))
     print('{} status check'.format(statusChecks_count))
-    
+
 
 if __name__ == '__main__':
     print_nginx_logs()
